@@ -81,6 +81,8 @@ blockquote p {
    line-height: 18px;
    margin-bottom: 0;
    font-style: italic;
+   color: #999;
+   max-width: 460px;
 }
 
 code, pre {
@@ -135,4 +137,13 @@ sup {
 	 table, pre {
 		  page-break-inside: avoid;
 	 }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5em auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(255,255,255,0.1);
 }

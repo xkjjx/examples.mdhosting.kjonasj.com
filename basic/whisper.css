@@ -83,6 +83,8 @@ blockquote p {
    line-height: 18px;
    margin-bottom: 0;
    font-style: italic;
+   color: #666;
+   max-width: 460px;
 }
 code, pre {
    font-family: Monaco, Andale Mono, Courier New, monospace;
@@ -133,4 +135,13 @@ sup {
    table, pre {
       page-break-inside: avoid;
    }
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin: 1.5em auto;
+   border-radius: 4px;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }

@@ -2,6 +2,11 @@
 
 img {
 	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 1.5em auto;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 table {
@@ -85,6 +90,10 @@ blockquote {
 	padding-left: 1em;
 	border-left: 1px solid #ddd;
 	}
+blockquote p {
+	color: #666;
+	max-width: 460px;
+}
 code {
 	font-family: "Consolas", "Menlo", "Monaco", monospace, serif;
 	font-size: .9em;

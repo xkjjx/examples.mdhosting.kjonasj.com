@@ -64,6 +64,10 @@ ol{margin:1em 0 1em 2em;}
 ul li,ol li{margin-top:.5em;margin-bottom:.5em;}
 ul ul,ul ol,ol ol,ol ul{margin-top:0;margin-bottom:0;}
 blockquote{margin:1em 0;border-left:5px solid #ddd;padding-left:.6em;color:#555;}
+blockquote p {
+    color: #666;
+    max-width: 460px;
+}
 dt{font-weight:bold;margin-left:1em;}
 dd{margin-left:2em;margin-bottom:1em;}
 sup {
@@ -87,4 +91,17 @@ sup {
 	 pre {
 		  word-wrap: break-word;
 	 }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5em auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+hr {
+    border: 1px solid #ddd;
 }

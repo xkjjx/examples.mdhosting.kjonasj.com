@@ -148,6 +148,11 @@ blockquote > :first-child {
 blockquote > :last-child {
    margin-bottom: 0; }
 
+blockquote p {
+    color: #666;
+    max-width: 460px;
+}
+
 table {
    padding: 0;border-collapse: collapse; }
 table tr {
@@ -172,7 +177,13 @@ table tr th :last-child, table tr td :last-child {
    margin-bottom: 0; }
 
 img {
-   max-width: 100%; }
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin: 1.5em auto;
+   border-radius: 4px;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
 span.frame {
    display: block;

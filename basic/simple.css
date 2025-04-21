@@ -30,6 +30,11 @@ margin:1em 0;
 
 img{
 max-width:100%;
+height: auto;
+display: block;
+margin: 1.5em auto;
+border-radius: 4px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -50,6 +55,10 @@ color:#666666;
 margin:0;
 padding-left: 3em;
 border-left: 0.5em #EEE solid;
+}
+blockquote p {
+    color: #666;
+    max-width: 460px;
 }
 hr { display: block; height: 2px; border: 0; border-top: 1px solid #aaa;border-bottom: 1px solid #eee; margin: 1em 0; padding: 0; }
 pre, code, kbd, samp { color: #000; font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 0.98em; }

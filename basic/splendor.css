@@ -181,6 +181,8 @@ blockquote p {
   font-style: italic;
   margin: 1rem auto 1rem;
   max-width: 48rem;
+  color: #666;
+  max-width: 460px;
 }
 
 li {
@@ -222,4 +224,17 @@ a:hover,
 a:focus,
 a:active {
   color: #2980b9;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5em auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+hr {
+  // ... existing code ...
 }
